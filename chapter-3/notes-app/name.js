@@ -1,5 +1,9 @@
 require("./utils");
 
-const name = "Chen";
+let name = "Chen";
 
-console.log(name);
+const add = function (a, b) {
+  name = "taiyan";
+};
+
+module.exports = { name, add };
